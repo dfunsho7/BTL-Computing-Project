@@ -1,0 +1,283 @@
+*{
+  font-family: 'Raleway', ;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color:white;
+}
+
+.abc.ncol{
+    color:#00695C !important;
+}
+
+.xyz.tcol{
+  color:white !important;
+}
+.header {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+  }
+  .cd {
+    font-size: 30px;
+  }
+  .header .btn {
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:#00695C;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .header .btn:hover {
+    background-color: black;
+  }
+
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+
+  .ta{
+      color:#560219;
+  }
+  .bg{
+    background-color:#F0F0F0;
+  }
+.prop{
+    height: 80px;
+    background-color: #560219;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 80px; 
+}
+
+.social{
+float: left;
+}
+
+.fa-facebook-square {
+    color: #3b5998;
+    margin-right: 10px;
+  }
+  .fa-twitter-square {
+    color: #1da1f2;  
+    margin-right: 10px;
+
+  }
+  .fa-dribbble-square {
+    color: #ea4c89; 
+    margin-right: 10px;
+ 
+  }
+  .fa-pinterest-square {
+    color: #bd081c;  
+    margin-right: 10px;
+
+  }
+  .fa-google-plus-square {
+    color: #dd4b39;  
+    margin-right: 10px;
+  }
+  .fa-instagram {
+    color: #3f729b;  
+    margin-right: 10px;
+
+  }
+  .footicons{
+      border-bottom: 1px solid white;
+  }
+
+  .foot{
+    background-color: #1B1B1B;
+  }
+  .foot1{
+      background-color: #000201;
+  }
+  
+  .holder{
+    background:url(heartbeat.jpg) no-repeat center center;
+    height:70px;
+    width:50px;
+    border-radius: 50%;
+
+  }
+
+  .fa-facebook-f{
+      color: white;
+      margin-right: 20px;
+  }
+  .fa-facebook-f:hover {
+    color: #3b5998;
+  }
+  .fa-twitter {
+    color: white;  
+    margin-right: 20px;
+  }
+  .fa-twitter:hover {
+    color: #1da1f2;  
+  }
+  .fa-dribbble {
+    color: white; 
+    margin-right: 20px;
+ 
+  }
+  .fa-dribbble:hover {
+    color: #ea4c89;  
+  }
+  .fa-pinterest {
+    color: white;  
+    margin-right: 20px;
+  }
+
+  .fa-pinterest:hover {
+    color: #bd081c;  
+  }
+  .fa-google-plus-g {
+    color: white;  
+    margin-right: 20px;
+  }
+
+  .fa-google-plus-g:hover {
+    color: #dd4b39;  
+  }
+  .insta {
+    color: white;  
+    margin-right: 20px;
+  }
+  .insta:hover {
+    color: #3f729b;  
+  }
+  
+
+
+
+.navbar-nav a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color:#fff;
+}
+
+.navbar-light .navbar-brand{
+    color:#fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color:#fff;
+}
+
+.nav-link{
+    padding: .2rem, 1rem;
+}
+
+.nav-link.active, .nav-link:focus{
+    color:maroon;
+}
+
+.w-100{
+    height: 100vh;
+}
+
+@media only screen and (max-width:767px){
+    .navbar-nav.ml-auto{
+        background:rgba(0,0,0,0.5);
+    }
+    .navbar-toggler{
+        padding:1px 5px;
+        font-size:18px;
+        line-height: 0.3;
+        background:#fff;
+
+    }
+
+}
+
+
+/* main.css contents */
+
+        .social-login{
+            width:450px;
+            margin:0 auto;
+            margin-bottom: 14px;
+        }
+        .social-btn{
+            font-weight: 100px;
+            color:white;
+            width:204px;
+            font-size: 0.9rem;
+        }
+        .signup-btn{
+            font-weight: 100px;
+            color:white;
+            width:130px;
+            font-size: 0.9rem;
+        }
+        .facebook-btn{  background-color:#3C589C; }
+        .google-btn{ background-color: #DF4B3B; }
+        .but{border-radius: 25px;}
+        .nc{background-color: #642848;}
+        .fg{text-align: center;}
+        .fg a{text-decoration: none; color:#642848}
+        .complogo
+        {
+            background:url(newlogo.jpg) no-repeat center center;
+            height:330px;
+            width:300px;
+            border-right: 1px solid lightgrey;
+        }
+        .form-control {
+            border-top-style: hidden;
+            border-right-style: hidden;
+            border-left-style: hidden;
+            border-bottom-style: groove;
+            background-color: #eee;
+            outline: none;
+            }
+
+carousel-item > img{
+    height: 400px;
+}
+
+.holder2
+  {
+    background:url(img/qrc.jpg) no-repeat center center;
+    height:250px;
+    width:100%;
+    border:1px solid lightgrey;
+  }
+  @media screen and (max-width: 500px) {
+    #stories .tag  {font-size: 10px;}
+  }
+
+  @media screen and (max-width: 500px) {
+    .mqmap  {width: 100%;}
+  }
